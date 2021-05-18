@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+
+body{
+	margin : 0;
+	position : relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 14px;
+}
+
+
+/******************  HEADING TITLE ***********************/
+
+.heading{
+	position : relative;
+	padding-top : 30px;
+}
+
+.heading h1{
+	font-family : 'Roboto Slab', serif;
+	font-size : 33px;
+	text-align : center;
+	color : #1b1b1b;
+}
+
+.heading .focus{
+	color : #9f4b49
+}
+
+.heading .underline{
+	background-color : #1b1b1b ;
+	width : 80px;
+	height : 2px;
+	position : absolute;
+	left : 50%;
+	margin-left : -40px;
+	margin-top : -10px;
+}
+
+
+/*******************  HEADER ***************************/
+
+.header{
+
+}
+
+.header .container{
+	width : 1100px;
+	margin : 0 auto;
+	overflow : hidden;
+	padding : 20px 0;
+}
+
+.header .logo{
+	height : 45px;
+	float : left;
+	position : relative;
+	min-width : 200px;
+}
+
+.header .logo img{
+	height : 100%;
+	position : absolute;
+	top: 0;
+	left : 0;
+	height : 65px;
+}
+
+.header .contactInf{
+	float : left;
+	padding-left : 200px;
+}
+
+.header .contactInf .item{
+	display : inline-block;
+	padding : 0 30px;
+
+}
+
+.header .contactInf .item:nth-child(1){
+	border-right : dashed 1px #e0e0e0;
+	
+}
+
+.header .contactInf .item .icon{
+	border : solid 1px #e0e0e0;
+	width : 45px;
+	height : 45px;
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.header .contactInf .item .icon img{
+	width : 100%;	
+}
+
+.header .contactInf .item .text{
+	display : inline-block;
+	color : #5c5c5c;
+	font-size : 14px;
+	font-weight : 600;
+	vertical-align : middle;
+	padding-left : 10px;
+}
+
+.header .contactInf .item .text .subLine{
+	color : #b4b3b3;
+	font-size : 12px;
+	font-weight : 300;
+	display : block;
+	padding-top : 5px;
+}
+
+.header .container .linkedin{
+	width : 45px;
+	height : 45px;
+	background-color : #ecebe0;
+	float : right;
+	text-align : center;
+	font-size : 15px;
+	color : #bc8020;
+	transition : .3s;
+}
+
+.header .container .linkedin a{
+	color : inherit;
+	display : block;
+	line-height : 45px;
+}
+
+.header .container .linkedin:hover{
+	background-color : #bc8020;
+	color : #fff;
+}
+
+/****************** MENU ***********************/
+
+.menu{
+	background-color : #040404;
+	width : 100%;
+}
+
+.menu ul{
+	list-style : none;
+	margin : 0;
+	padding : 0;
+	text-align : center;
+}
+
+.menu ul li{
+	display : inline-block;
+	padding : 0 35px 0
+}
+
+.menu ul li a{
+	text-decoration : none;
+	font-size : 17px;
+	line-height : 100px;
+	color  : #fefefe;
+	transition : .3s;
+}
+
+.menu ul li a.selected{
+	color : #FCC200;
+}
+
+.menu ul li a:hover{
+	color : #FCC200;
+}
+	
+/******************  SLIDE ***********************/
+
+.slide{
+	position : relative;
+}
+
+.slide .background{
+	width : 100%;
+	overflow : hidden;
+}
+
+.slide .background img{
+	min-width : 100%;
+	min-height : 650px; 
+}
+
+.slide .texts{
+	position : absolute;
+	top : 25%;
+	left : 13%;
+}
+
+.slide .texts .focusText{
+	font-family : 'Roboto Slab', serif;
+	font-weight : 100;
+	font-size : 47px;
+	color : #fff;
+}
+
+.slide .texts .focusText .focus{
+	font-weight : 400;
+	color : #FCC200;
+}
+
+.slide .texts .subText{
+	font-family : 'Montserrat', serif;
+	font-weight : 100;
+	font-size : 18px;
+	color : #fff;
+	padding-top : 20px;
+}
+
+.slide .texts .subText .bold{
+	font-weight : 400;
+}
+
+.slide .texts .optionLink{
+	font-family : 'Roboto Slab', serif;
+	font-weight : 100;
+	font-size : 21px;
+	color : #fff;
+	padding-top : 30px;
+
+}
+
+.slide .texts .optionLink .click{
+	line-height : 45px;
+	background-color : #782e2c;
+	color : #e3e3e3;
+	padding : 0 15px 0;
+	font-family : 'Montserrat', serif;
+	font-size : 12px;
+	font-weight : 600;
+	text-decoration : none;
+	display : inline-block;
+	border-radius : 5px;
+	transition : .1s;
+}
+
+.slide .texts .optionLink .click:hover{
+	background-color : #501816;
+	color : #fff;	
+}
+
+.slide .texts .optionLink .click.blue{
+	background-color : #13416a;
+}
+
+.slide .texts .optionLink .click.blue:hover{
+	background-color : #062948;
+}
+
+/****************** ABOUT SECTION ***********************/
+
+#about {
+}
+
+#about .container{
+	margin : auto;
+	width : 1140px;
+	overflow : hidden;
+	padding-top : 50px;
+}
+
+#about .container .conLeft{
+	width : 60%;
+	float : left;
+}
+
+#about .container .description{
+	font-family : 'Roboto Slab', serif;
+	font-size : 14px;
+	color : #1c1c1c;
+}
+
+#about .container .description ul{
+	margin : 0;
+	padding : 0;
+}
+
+#about .container .description li{
+	list-style : none;
+	padding : 10px 0 20px;
+}
+
+
+#about .container .conRight{
+	float : right;
+	width : 40%;
+}
+
+#about .container .conRight .profile{
+	max-width : 400px;
+	float : right;
+	margin-top : 100px;
+	width : 100%;
+	box-sizing : border-box;
+	padding-left : 50px;
+}
+
+#about .container .conRight .profile img{
+	width : 100%;
+}
+
+#about .aboutBox{
+	font-size : 14px;
+	background-color : #8f3a38;
+	color : #fff;
+	font-weight : 300;
+	position : relative;
+	margin : 70px 0 0;
+	letter-spacing : .7px;
+	line-height : 23px;
+	overflow : hidden;
+}
+
+
+#about .aboutBox .para{
+    padding-left: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #9f4b49;
+    float: right;
+    padding: 50px 50px 30px 50px;
+    box-sizing: border-box;
+}
+
+/****************** PRACTISE AREAS SECTION ***********************/
+
+#pAreas{
+	background-color : #f1f1f1;
+}
+
+#pAreas .container{
+	width : 1200px;
+	margin : auto;
+	padding-top : 60px;
+	padding-bottom : 80px;
+	overflow : hidden;
+}
+
+#pAreas .container .item{
+	width : 33.33%;
+	float : left;
+	box-sizing : border-box;
+	padding : 0 20px 0;
+	
+}
+
+#pAreas .container .item .box{
+	border : solid 1px #eaeaea;
+	background-color : #fff;
+}
+
+#pAreas .container .item .title{
+	background-color : #333333;
+	line-height : 55px;
+	text-align : center;
+	color : #fff;
+	font-size : 18px;
+	font-weight : 400;
+}
+
+#pAreas .container .item .title.maroon{
+	background-color : #9f4b49;
+}
+
+#pAreas .container .item ul{
+	margin : 0;
+	padding : 0;
+}
+
+#pAreas .container .item ul li{
+	list-style : none;
+	color : #333333;
+	font-size : 15px;
+	font-weight : 400;
+	width : 100%;
+	padding : 18px 0;
+	border-bottom : solid 1px #eaeaea;
+	box-sizing : border-box;
+	padding-left : 80px;
+	position : relative;
+}
+
+#pAreas .container .item ul li.hide{
+	display : none;
+}
+
+#pAreas .container .item ul li .tick{
+    position: absolute;
+    height: 100%;
+    width: 65px;
+    top: 0;
+    left: 0;
+    background: url(../images/tick.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#pAreas .container .item .bttnSpace{
+	text-align : center;
+}
+
+#pAreas .container .item .button{
+	background-color : #9f4b49;
+	font-size : 12px;
+	cursor : pointer;
+	border-radius : 5px;
+	line-height : 40px;
+	margin : 20px auto;
+	display : inline-block;
+	color : #fff;
+	padding : 0 20px;
+	transition : .3s;
+}
+
+#pAreas .container .item .button:hover{
+	background-color : #692422;
+}
+	
+#pAreas .container .item .button i{
+	padding-left : 5px;
+}
+
+/****************** Representative Matters ***********************/
+
+#rMatters{
+}
+
+#rMatters .container{
+	margin : auto;
+	width : 1140px;
+	overflow : hidden;
+	padding-top : 50px;
+	padding-bottom : 40px;
+}
+
+#rMatters .container .conLeft{
+	width : 40%;
+	float : left;
+}
+
+#rMatters .container .description{
+	font-family : 'Roboto Slab', serif;
+	font-size : 14px;
+	color : #1c1c1c;
+}
+
+#rMatters .container .description ul{
+	margin : 0;
+	padding : 0;
+}
+
+#rMatters .container .description li{
+	list-style : none;
+	padding : 10px 0 20px;
+	padding-left :50px;
+	box-sizing : border-box;
+    background: url(../images/tick.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#rMatters .container .description li.hide{
+	display : none;
+}
+
+#rMatters .container .conRight{
+	float : left;
+	width : 60%;
+}
+
+#rMatters .container .conLeft .image{
+	max-width : 400px;
+	margin-top : 100px;
+	width : 100%
+}
+
+#rMatters .container .image img{
+	width : 100%;
+}
+
+#rMatters .container .bttnSpace{
+	padding-left : 50px;
+	box-sizing : border-box;
+}
+
+#rMatters .container .bttnSpace .button{
+	line-height : 45px;
+	font-size : 16px;
+	font-family : 'Montserrat', serif;
+	color : #1c1c1c;
+	border : solid 2px #1c1c1c;
+	padding : 0 20px;
+	display : inline-block;
+	margin : 30px 0; 
+	cursor : pointer;
+	transition : .2s;
+}
+
+#rMatters .container .bttnSpace .button:hover{
+	background-color : #1c1c1c;
+	color : #fff;
+}
+	
+/***************************** Contact ***********************/
+
+#contact{
+	background-color : #f9f9f9;
+}
+
+#contact .container{
+	width : 1100px;
+	margin : 0 auto;
+	padding : 50px 0 80px 0;
+	overflow : hidden;
+}
+
+#contact .conLeft{
+	width : 50%;
+	box-sizing : border-box;
+	padding : 0 60px 0 20px;
+	float : left;
+}
+
+#contact .conLeft .title{
+	font-family : 'Montserrat', serif;
+	font-size : 28px;
+	font-weight : 700;
+	padding-bottom : 40px;
+}
+
+#contact .conLeft input, #contact .conLeft textarea{
+	line-height : 40px;
+	width : 100%;
+	box-sizing : border-box;
+	padding : 0 20px;
+	border : solid 1px #d9d9db;
+	font-family : 'Montserrat', serif;
+	font-size : 14px;
+
+	margin : 7px 0;
+}
+
+#contact .conLeft .line2 input:nth-child(1){
+	width : 46%;
+	float : left;
+}
+
+#contact .conLeft .line2 input:nth-child(2){
+	width : 50%;
+	float : right;
+}
+
+#contact .conLeft input.submit{
+		background-color : #9f4b49;
+		color : #fff;
+		font-weight : 600;
+}
+
+#contact .conRight{
+	float : right;
+	width : 50%;
+	box-sizing : border-box;
+	padding-left : 40px;
+}
+
+#contact .conRight .hLine{
+	height : 2px;
+	width : 60px;
+	background-color : #bababa;
+	margin : 30px 0 40px 0;
+}
+
+#contact .conRight .item{
+	
+}
+#contact .conRight .item .title{
+	color : #012f5d;
+	font-size : 16px;
+	font-weight : 600;
+	vertical-align : middle;
+	padding : 20px 0;
+}
+
+#contact .conRight .item .title i{
+	color : #9f4b49;
+	font-size : 23px;
+	padding-right : 10px;
+}
+
+#contact .conRight .item .text{
+	font-size : 16px;
+	color : #575757;
+	padding-left : 30px;
+}
+
+
+/*************************** Footer ***********************/
+
+.footer{
+	background-color : #171616;
+	color : #fff;
+}
+
+.footer .container{
+	width : 1000px;
+	overflow : hidden;
+	margin : 0 auto;
+	padding : 40px 0;
+}
+
+.footer .container .item{
+	width : 33.33%;
+	float : left;
+	
+}
+
+.footer .container .item .title{
+	font-size : 26px;
+	font-weight : 700;
+}
+
+.footer .container .item .iconic{
+	margin : 0;
+	padding : 30px 0;
+}
+
+.footer .container .item .iconic li{
+	list-style : none;
+	font-family : "Roboto Slab", serif;
+	font-size : 15px;
+	padding : 10px 0;
+}
+
+.footer .container .item .iconic li>div{
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.footer .container .item .iconic li i{
+	font-size : 25px;
+	padding-right : 20px;
+}
+
+.footer .container .item .message{
+	width : 100%;
+	padding-top : 30px;
+}
+
+.footer .container .item .message input{
+	font-family : "Roboto slab", serif;
+	line-height : 40px;
+	border : 0;
+	box-sizing : border-box;
+	padding-left : 20px;
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+.footer .container .item .message .double{
+
+}
+
+.footer .container .item .message .double input:nth-child(1){
+	width : 50%;
+	float : left;
+}
+
+.footer .container .item .message .double input:nth-child(2){
+	width : 45%;
+	float : right;
+}
+
+.footer .container .item .message .submit{
+	width : auto;
+	border : 0;
+	background-color : #fde428;
+	color : #003040;
+	font-family : 'Montserrat', serif;
+	font-size : 12px;
+	padding: 0 15px;
+	font-weight : 600;
+	cursor : pointer;
+}
+
+.footer .footNote{
+
+	background-color : #201f1f;
+	box-sizing : border-box;
+	border-bottom : solid 4px #101010;
+}
+
+.footer .footNote .container{
+	font-family : 'Montserrat', serif;
+	font-size : 12px;
+	font-weight : 300;
+	color : #ffffff;
+	margin : 0 auto;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+
+.footer .copyRight{
+	font-family : 'Roboto Slab', serif;
+	font-size : 12px;
+	font-weight : 300;
+	color : #a3a2a2;
+	background-color : #171616;
+	box-sizing : border-box;
+	padding : 20px 100px;
+	border-bottom : solid 3px #201f1f;
+}
+
+@media only screen and (max-width: 1220px) {
+	.header .container{
+		width : 1000px;
+	}
+	
+	#about .container{
+		width : 1000px;		
+	}
+
+	#about .aboutBox .para{
+		width : 1000px;		
+	}
+	
+	#pAreas .container{
+		width : 1000px;
+	}
+	
+	#rMatters .container{
+		width : 1000px;
+	}
+	
+	#contact .container{
+		width : 1000px;		
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 1020px) {
+	.header .container{
+		width : 800px;
+	}
+
+	.header .contactInf .item:nth-child(2){
+		display : none;
+	}
+	
+	.menu ul li{
+		padding : 0 25px 0;
+	}
+	
+	#about .container{
+		width : 800px;		
+	}
+	
+	#pAreas .container .item{
+		padding : 0 5px 0;
+	}
+	
+	#pAreas .container .item ul li{
+		padding-left : 50px;
+	}
+	
+	#pAreas .container .item ul li .tick{
+		width : 40px;
+	}
+	
+	#pAreas .container{
+		width : 800px;
+	}
+	
+	#rMatters .container{
+		width : 800px;
+	}
+	
+	#contact .container{
+		width : 800px;		
+	}
+	
+	.footer .container{
+		width : 800px;
+	}
+
+	#about .aboutBox .para{
+		width : 800px;		
+	}
+	
+	
+}
+
+@media only screen and (max-width: 820px) {
+	.header .container{
+		width : 100%;
+		text-align : center;
+	}
+	
+	.header .logo{
+		display : inline-block;
+		float : none;
+	}
+	
+	.header .contactInf{
+		display : none;
+	}
+	
+	.header .linkedin{
+		display : none;
+	}
+	
+	.menu ul li{
+		padding : 0;
+		display : block;
+	}
+	
+	.menu ul li a{
+		line-height : 50px;
+		font-size : 13px;
+	}
+	
+	#about .container{
+		width : 80%;		
+	}
+
+	#about .container .conLeft{
+		clear : both;
+		width : 100%;
+	}
+	
+	#about .container .conRight{
+		clear : both;
+		width : 100%;
+	}
+	
+	#about .container .conRight .profile{
+		margin-top : 0;
+	}
+	
+	#about .aboutBox .para{
+		width : 100%;		
+	}
+	
+	
+	#pAreas .container{
+		width : 90%;
+	}
+	
+	#pAreas .container .item{
+		padding : 0 5px 50px;
+		width : 100%;
+		float : clear;
+	}
+	
+	#pAreas .container .item ul li{
+		padding-left : 100px;
+
+	}
+	
+	#pAreas .container .item ul li .tick{
+		width : 80px;
+	}
+	
+	#rMatters .container{
+		width : 90%;
+	}
+	
+	#rMatters .container .conLeft{
+		float : clear;
+		width : 100%;
+	}
+
+	#rMatters .container .conRight{
+		float : clear;
+		width : 100%;
+	}
+	
+	#rMatters .container .conLeft .image{
+		margin : auto;
+	}
+	
+	#contact .container{
+		width : 90%;		
+	}
+	
+	#contact .container .conLeft{
+		clear : both;
+		width : 100%;
+	}
+	
+	#contact .container .conRight{
+		clear : both;	
+		width : 100%;		
+	}
+	
+	.footer .container{
+		width : 85%;
+	}
+	
+	.footer .container .item{
+		clear : both;
+		width : 100%;
+	}
+}
